@@ -10,7 +10,8 @@ module.exports = function (app) {
 
     app.post("/api/friends", function (req, res) {
         //TODO takes in a new friend to find
-
+        //TODO finds the closest match in the table
+        //Returns the compatible friend
         friends.push(req.body);
         res.json();
     });
