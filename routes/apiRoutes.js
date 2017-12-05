@@ -1,4 +1,5 @@
-var friends = require("../data/friends");
+var path = require("path");
+var friends = require(path.join(__dirname, "../app/data/friends.js"));
 
 
 module.exports = function (app) {
