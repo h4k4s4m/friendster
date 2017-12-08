@@ -17,13 +17,18 @@ module.exports = function (app) {
     });
 }
 
+findClosestMatch();
+
 function findClosestMatch() {
     let lastF = friends[friends.length - 1].scores;
+    var difference = 0;
 
     for (let x = 0; x < friends.length - 1; x++) {
 
-        console.log(x);
-
+        for (y in friends[x].scores) {
+            difference += Math.abs(parseInt(lastF[y] - parseInt(friends[x].scores[y])));
+            console.log(friends[x].scores[y]);
+        }
 
 
 
