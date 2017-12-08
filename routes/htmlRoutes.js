@@ -15,6 +15,9 @@ module.exports = (app) => {
     app.get("/survey", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
+    app.get("/javascript/survey.js", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/javascript/survey.js"));
+    });
 
     app.get("*", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/index.html"))

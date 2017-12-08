@@ -18,13 +18,19 @@ module.exports = function (app) {
 }
 
 function findClosestMatch() {
-    let lastF = friends[friends.length - 1];
+    let lastF = friends[friends.length - 1].scores;
+
+    for (let x = 0; x < friends.length - 1; x++) {
+
+        console.log(x);
 
 
 
-    for (let x in friends) {
 
 
     }
+
+
+
 
 }
