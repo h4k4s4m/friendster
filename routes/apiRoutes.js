@@ -18,5 +18,13 @@ module.exports = function (app) {
 }
 
 function findClosestMatch() {
+    let lastF = friends[friends.length - 1];
+
+
+
+    for (let x in friends) {
+
+
+    }
 
 }

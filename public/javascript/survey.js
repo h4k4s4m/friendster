@@ -12,9 +12,11 @@ $(document).on("click", "#submit", function (event) {
         nData.name = $("#name").val();
         nData.photo = $("#photo").val();
         for (let x = 1; x < 11; x++) {
-            nData.scores.push($("#sel" + x).val())
+            nData.scores.push($("#sel" + x).val());
         }
-        $.post("/api/friends", nData, function (res) { });
+        $.post("/api/friends", nData, function (res) {
+
+        });
         nData.scores = [];
     }
 });
