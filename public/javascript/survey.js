@@ -1,5 +1,3 @@
-
-
 $(document).on("click", "#submit", function (event) {
     if ($("#name").val() == '' || $("#photo").val() == '') {
         alert("Name and photo are required!");
@@ -17,6 +15,9 @@ $(document).on("click", "#submit", function (event) {
         }
         $.post("/api/friends", nData, function (res) {
             console.log(res);
+            $("#modal").html("<h1>" + res.name + "</h1><br");
+            $("#modal").append("<img src=\"" + res.photo + "\">");
+            $('#myModal').modal('show');
         });
 
         nData.scores = [];

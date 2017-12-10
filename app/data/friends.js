@@ -1,7 +1,7 @@
 var friends = [{
     name: "Ahmed",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [
+    photo: "https://vignette.wikia.nocookie.net/ytpguy17-ssbl/images/1/11/SpongeBob.jpg/revision/latest?cb=20120813135401",
+    "scores[]": [
         1,
         1,
         1,
@@ -15,8 +15,8 @@ var friends = [{
     ]
 }, {
     name: "test",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [
+    photo: "https://vignette.wikia.nocookie.net/ytpguy17-ssbl/images/1/11/SpongeBob.jpg/revision/latest?cb=20120813135401",
+    "scores[]": [
         5,
         1,
         4,
@@ -30,8 +30,8 @@ var friends = [{
     ]
 }, {
     name: "test2",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [
+    photo: "https://vignette.wikia.nocookie.net/ytpguy17-ssbl/images/1/11/SpongeBob.jpg/revision/latest?cb=20120813135401",
+    "scores[]": [
         5,
         1,
         4,

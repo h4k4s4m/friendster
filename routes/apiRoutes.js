@@ -24,8 +24,8 @@ function findClosestMatch() {
 
     for (var x = 0; x < friends.length - 1; x++) {
 
-        for (var y = 0; y < friends[x].scores.length; y++) {
-            difference += Math.abs(parseInt(lastF[y] - parseInt(friends[x].scores[y])));
+        for (var y = 0; y < friends[x]['scores[]'].length; y++) {
+            difference += Math.abs(parseInt(lastF[y] - parseInt(friends[x]['scores[]'][y])));
         }
 
         diffArray.push(difference);
